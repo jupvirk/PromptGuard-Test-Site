@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@ai-sdk/groq": "^4.0.50",
-    "@ai-sdk/react": "^4.0.94",
-    "@openrouter/ai-sdk-provider": "^3.0.0",
-    "ai": "^7.0.91",
+    "@ai-sdk/react": "^4.0.119",
+    "@openrouter/ai-sdk-provider": "^3.1.0",
+    "ai": "^7.0.116",
     "lucide-react": "^1.39.0",
     "next": "16.3.4",
     "react": "19.2.8",
