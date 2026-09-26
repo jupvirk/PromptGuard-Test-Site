@@ -10,12 +10,19 @@ interface Message {
 }
 
 const MODELS = [
-  // The permanent free routing slug that never expires
+  // --- Blazing Fast Free Models (via Groq) ---
+  { id: 'groq/openai/gpt-oss-120b', name: 'Groq: OpenAI GPT-OSS 120B (Ultra-Fast)' },
+  { id: 'groq/openai/gpt-oss-20b', name: 'Groq: OpenAI GPT-OSS 20B (Instant)' },
+  { id: 'groq/qwen/qwen3.8-27b', name: 'Groq: Qwen 3.8 27B (Fast)' },
+
+  // --- Free OpenRouter Models ---
   { id: 'openrouter/free', name: 'OpenRouter Free (Auto-Select)' },
+
+  // --- Paid Models (Require OpenRouter Account Balance) ---
   { id: 'anthropic/claude-3.5-sonnet', name: 'Claude 3.5 Sonnet (Paid)' },
+  { id: 'openai/gpt-4o', name: 'GPT-4o (Paid)' },
   { id: 'meta-llama/llama-3.1-405b-instruct', name: 'Llama 3.1 405B (Paid)' },
-  { id: 'google/gemini-1.5-pro', name: 'Gemini 1.5 Pro (Paid)' },
-  { id: 'openai/gpt-4o', name: 'GPT-4o (Paid)' }
+  { id: 'google/gemini-1.5-pro', name: 'Gemini 1.5 Pro (Paid)' }
 ];
 
 export default function ChatArena() {
