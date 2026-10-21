@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Test-Site-Redactor",
+			"path": "../../../../../Test-Site-Redactor"
+		},
+		{
+			"name": "PromptGuard-Test-Site",
+			"path": "../../../.."
+		}
+	],
+	"settings": {}
+}
