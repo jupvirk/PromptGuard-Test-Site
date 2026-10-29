@@ -126,14 +126,13 @@ To test client-side prompt redaction end-to-end:
 ---
 
 ## Available Free Models
-```
+
 | Provider | Model Name | Speed Profile |
-| :--- | :--- | :--- | :--- |
 | **Groq** | OpenAI GPT-OSS 120B | Ultra-Fast |
 | **Groq** | OpenAI GPT-OSS 20B | Instant |
 | **Groq** | Qwen 3.8 27B | Fast |
 | **OpenRouter** | OpenRouter Free (Auto) | Standard |
-```
+
 ---
 
 ## 📄 License
