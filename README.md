@@ -1,11 +1,11 @@
-# 🛡️ PromptGuard Test Site (Simple AI Arena)
+# PromptGuard Test Site (Simple AI Arena)
 
 > **Modern Multi-Model AI Arena & Client-Side PII Redaction Testbed**  
 > Built with Next.js 16, React 19, Tailwind CSS 4, and the Vercel AI SDK.
 
 ---
 
-## 📌 Overview
+## Overview
 
 **PromptGuard Test Site (Simple AI Arena)** is a lightweight, responsive testing ground and AI chat arena designed to evaluate model responses and audit client-side prompt security tooling. 
 
@@ -34,24 +34,24 @@ It serves as the dedicated counterpart to **PromptGuard Redactor** extensions (s
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Blazing-Fast Multi-Model Switching**  
+- **Blazing-Fast Multi-Model Switching**  
   Switch seamlessly between ultra-fast free models and advanced frontier models:
   - **Groq (Free & Instant)**: OpenAI GPT-OSS 120B, OpenAI GPT-OSS 20B, Qwen 3.8 27B, Llama 3.3 70B.
   - **OpenRouter (Free Tier & Frontier)**: Auto-Select Free, Claude 3.5 Sonnet, GPT-4o, Llama 3.1 405B, Gemini 1.5 Pro.
-- **🧪 Client-Side Redaction Auditing**  
+- **Client-Side Redaction Auditing**  
   Specially structured with React 19 form inputs and dynamic message bubbles to test prototype property descriptor patching, event capture order, and `MutationObserver` token restoration in real time.
-- **🎨 Modern Dark Glassmorphic Design**  
+- **Modern Dark Glassmorphic Design**  
   Built with Tailwind CSS 4, featuring subtle gradients, pulsing status badges, syntax-aware font stacks, responsive drawer controls, and message copying.
-- **⚡ Unified Vercel AI SDK Backend**  
+- **Unified Vercel AI SDK Backend**  
   Clean API route implementation in Next.js App Router (`/api/chat`) utilizing `@ai-sdk/groq` and `@openrouter/ai-sdk-provider`.
-- **⌨️ Intuitive Ergonomics**  
+- **Intuitive Ergonomics**  
   Supports `Enter` for instant submission, `Shift + Enter` for multiline input, auto-expanding message flows, and quick chat reset.
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 PromptGuard-Test-Site/
@@ -72,7 +72,7 @@ PromptGuard-Test-Site/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 
@@ -108,7 +108,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## 🧪 Testing with PromptGuard Redactor Extensions
+## Testing with PromptGuard Redactor Extensions
 
 To test client-side prompt redaction end-to-end:
 
@@ -125,18 +125,14 @@ To test client-side prompt redaction end-to-end:
 
 ---
 
-## ⚙️ Available Models
+## Available Free Models
 
-| Provider | Model Name | Tier | Speed Profile |
+| Provider | Model Name | Speed Profile |
 | :--- | :--- | :--- | :--- |
-| **Groq** | OpenAI GPT-OSS 120B | Free | Ultra-Fast |
-| **Groq** | OpenAI GPT-OSS 20B | Free | Instant |
-| **Groq** | Qwen 3.8 27B | Free | Fast |
-| **OpenRouter** | OpenRouter Free (Auto) | Free | Standard |
-| **OpenRouter** | Claude 3.5 Sonnet | Paid | Standard |
-| **OpenRouter** | GPT-4o | Paid | Standard |
-| **OpenRouter** | Llama 3.1 405B | Paid | Standard |
-| **OpenRouter** | Gemini 1.5 Pro | Paid | Standard |
+| **Groq** | OpenAI GPT-OSS 120B | Ultra-Fast |
+| **Groq** | OpenAI GPT-OSS 20B | Instant |
+| **Groq** | Qwen 3.8 27B | Fast |
+| **OpenRouter** | OpenRouter Free (Auto) | Standard |
 
 ---
 
